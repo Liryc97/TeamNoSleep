@@ -1,67 +1,69 @@
-/* Main */
-.header{
-	/*position: fixed;
-	left: 0;
-	top: 0;*/
-	width: 100%;
-	background-color: #000;
-	/*border-bottom: 4px groove #fff;*/
-	color: #fff;
-	text-align: justify;
-	padding: 9px;
-}
-
-.h_link{
-	color: white;
-	background-color: black;
-	text-align: right;
-	padding: 9px;
-}
-
-a.h_link:hover{
-	background-color: white;
-	color: black;
+*{
+padding: 0;
+margin: 0;	
+box-sizing: border-box;
 }
 
 .main{
-	background-color: gray;
-}
+	background: #fff;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-.legal{
-	position: relative;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	width: 100%;
-	background-color: #000;
-	border-top: 4px groove #000;
-	color: #fff;
-	font-size: 10px;
+}
+.menu-bar
+{
+	background: green;
 	text-align: center;
-	padding-bottom: 15px;
+	position: relative;
 }
-
-/* Others */
-
-.galleries{
-	/*border: 2px dashed red;*/
-	margin: 5px 0px 5px 0px;
+.menu-bar ul{
+display: inline-flex;
+list-style: none;
+color: #fff;
 }
-
-.title{
-
-}
-
-.article{
-	margin: 20px 20px;
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
 	padding: 15px;
-	background-color: rgba(210,0,210,.09);
-}
+	margin-left: 50px;
+	margin-right: 50px;
+	}
+	.menu-bar ul li a
+	{
+		text-decoration: none;	
 
-.carousel .carousel-control-prev-icon,.carousel .carousel-control-next-icon{
-	width: 25px;
-	height: 25px;
-	background-color: gray;
-	border: 1px solid white;
-	border-radius: 40px;
-}
+		color: #fff;
+	}
+	.active, .menu-bar ul li:hover
+	{
+		background: #2bab2b;
+		border-radius: 3px;
+	}
+	.sub-menu-1
+	{
+		display: none;
+	}
+	.menu-bar ul li:hover .sub-menu-1{
+		display: block;
+		position: absolute;
+		background: rgb(0, 100, 0);
+		margin-top: 15px;
+		margin-left: -15px;
+	}
+	.menu-bar ul li:hover .sub-menu-1 ul{
+		display: block;
+		margin: 10px;
+	}
+	.menu-bar ul li:hover .sub-menu-1 ul il{
+		width: 150px;
+		padding: 10px;
+		border-bottom: 1px dotted #fff;
+		background: transparent;
+		border-radius: 0;
+		text-align: left;
+	}
+	.menu-bar ul li:hover .sub-menu-1 ul il:last-child{
+		border-bottom: none;
+	}
+	.menu-bar ul li:hover .sub-menu-1 ul il a:hover{
+		color: #2bab2b;
+	}
