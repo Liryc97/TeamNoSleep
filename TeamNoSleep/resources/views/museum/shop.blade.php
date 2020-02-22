@@ -28,8 +28,8 @@
           <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
             aria-labelledby="navbarDropdownMenuLink2">
             <div class="row">
-              <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
+              {{-- <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
+                <h6 class="sub-title text-uppercase font-weight-bold white-text">Test</h6>
                 <ul class="list-unstyled">
                   <li>
                     <a class="menu-item pl-0" href="#!">
@@ -148,7 +148,8 @@
                     </a>
                   </li>
                 </ul>
-              </div>
+              </div> --}}
+              test
             </div>
           </div>
         </li>
