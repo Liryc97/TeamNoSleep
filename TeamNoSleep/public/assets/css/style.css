@@ -69,6 +69,7 @@ color: #fff;
 		border-bottom: none;
 	}
 	.menu-bar ul li:hover .sub-menu-1 ul il a:hover{
+<<<<<<< HEAD
 		color: violet;
 	}
 .article{
@@ -122,3 +123,8 @@ h2, p{color:#fff;}
 	color: #000;
 	transform: translateY(-50%);
 }
+=======
+		color: #2bab2b;
+	}
+	
+>>>>>>> d0a4369adc23694448e4d91975fa3d72f6543fae
