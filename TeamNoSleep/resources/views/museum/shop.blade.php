@@ -80,12 +80,13 @@
                     <div>
                     <img src="http://via.placeholder.com/50x50" style="width:30%"alt="">
                     </div>
-                    <h3>Id no: 1</h3>
+                    <h3>ID No: 1</h3>
                     <h3>Name:</h3>
                     <h3>City:</h3>
                     <h3>Rigeion:</h3>
                     <h3>Contact:</h3>
                     <h3>Email:</h3>
+                    <h3>Specialties:</h3>
                 </div>
                             
             </div>
@@ -114,14 +115,127 @@
                       keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
                       placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi
                       qui.</div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie
-                      locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
-                      blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
-                      Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
-                      PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS
-                      salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
-                      sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
-                      stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        
+                            <div class="text-right">
+                                <button class="btn peach-gradient push-right">Add</button>
+
+                            <div>
+                        
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/2045315/pexels-photo-2045315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" >
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/2036650/pexels-photo-2036650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                 
+                </p>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/132472/pexels-photo-132472.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/2059696/pexels-photo-2059696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/1893536/pexels-photo-1893536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/2041160/pexels-photo-2041160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/849835/pexels-photo-849835.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/2060948/pexels-photo-2060948.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+            <div class="card mb-5">
+              <img class="card-img-top" src="https://images.pexels.com/photos/933779/pexels-photo-933779.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+                  <button type="button" class="btn btn-outline-info waves-effect">Edit</button>
+                  <button type="button" class="btn btn-outline-danger waves-effect">Delete</button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+                    </div>
                     <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape
                       wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack
                       lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
@@ -135,57 +249,7 @@
         </div>
 
 </div>
-{{-- <div class="cta-sektion  border py-3">
-    <div class="container">
-        <div class="row">
-            
-            <div class="col-md-3 col-sm-3 col-xs-12 ">
-                <button type="button" class="btn bg-danger twhite" style="">Start Right Now</button>
-            </div>
-        </div>
-    </div>
-</div> --}}
-{{-- <div class="footer  py-5  ">
-	<div class="container">
-	  <div class="row">
-		
-		<div class="col-xs-12 col-sm-6 col-md-3 footer-two">
-		    <h5>Information </h5>
-		    <ul class="list-unstyled">
-									<li><a href="maintenance.html">item</a></li>
-									<li><a href="contact.html">item</a></li>
-									<li><a href="about.html">item</a></li>
-									<li><a href="about.html">item</a></li>
-									<li><a href="about.html">item</a></li>
-								</ul>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 footer-three">
-		    <h5>Helpful Links </h5>
-		    <ul class="list-unstyled">
-									<li><a href="maintenance.html">test</a></li>
-									<li><a href="contact.html">test</a></li>
-									<li><a href="about.html">test</a></li>
-									<li><a href="about.html">test</a></li>
-									<li><a href="about.html">test</a></li>
-								</ul>
-		</div>
-		<div class="col-xs-12 col-sm-6 col-md-3 footer-four">
-		    <h5>Helpful Links </h5>
-		    <ul class="list-unstyled">
-									<li><a href="maintenance.html">test</a></li>
-									<li><a href="contact.html">test</a></li>
-									<li><a href="about.html">test</a></li>
-									<li><a href="about.html">test</a></li>
-									<li><a href="about.html">test</a></li>
-								</ul>
-		</div>
-	  </div>
-	</div>
-</div>
-<div class="copyright bglight1 border pt-2">
-    <div class="container">
-        
-    </div> --}}
+
 </div>
 
   
