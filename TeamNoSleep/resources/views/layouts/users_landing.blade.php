@@ -7,6 +7,7 @@
     <title>users login</title>
 </head>
 <body>
+    @yield('name')
     <label for="">id no:</label>
     <input type="text" name="id" placeholder="">
     <label for="">Name:</label>
@@ -16,7 +17,6 @@
     <label for="">Regions:</label>
     <input type="text" name="regions" placeholder=" Change Region">
     <label for="">Contact Number:</label>
-
     <label for="">Contact Number:</label>
     
 </body>

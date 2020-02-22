@@ -11,9 +11,11 @@ box-sizing: border-box;
 }
 .menu-bar
 {
-	background: green;
+	background: #272abf;
 	text-align: center;
-	position: relative;
+	z-index: 3;
+	position: fixed;
+	top: 0;
 }
 .menu-bar ul{
 display: inline-flex;
@@ -21,9 +23,10 @@ list-style: none;
 color: #fff;
 }
 .menu-bar ul li{
+	height: 50px;
 	width: 120px;
-	margin: 15px;
-	padding: 15px;
+	margin-top: 10px;
+	padding: 10px;
 	margin-left: 50px;
 	margin-right: 50px;
 	}
@@ -31,11 +34,12 @@ color: #fff;
 	{
 		text-decoration: none;	
 
-		color: #fff;
+		color: #000;
 	}
 	.active, .menu-bar ul li:hover
 	{
-		background: #2bab2b;
+		background: white;
+		color: black;
 		border-radius: 3px;
 	}
 	.sub-menu-1
@@ -45,7 +49,7 @@ color: #fff;
 	.menu-bar ul li:hover .sub-menu-1{
 		display: block;
 		position: absolute;
-		background: rgb(0, 100, 0);
+		background: blue;
 		margin-top: 15px;
 		margin-left: -15px;
 	}
@@ -56,7 +60,7 @@ color: #fff;
 	.menu-bar ul li:hover .sub-menu-1 ul il{
 		width: 150px;
 		padding: 10px;
-		border-bottom: 1px dotted #fff;
+		border-bottom: 1px dotted pink;
 		background: transparent;
 		border-radius: 0;
 		text-align: left;
@@ -65,5 +69,56 @@ color: #fff;
 		border-bottom: none;
 	}
 	.menu-bar ul li:hover .sub-menu-1 ul il a:hover{
-		color: #2bab2b;
+		color: violet;
 	}
+.article{
+	margin-top: 10%;
+	text-align: center;
+	font-family: Verdana;
+}
+.img {
+	height: 500px;
+	object-fit: scale-down;
+}
+.article1{
+	margin-top: 6%;
+	text-align: center;
+	font-family: Verdana;
+	margin-bottom: 5px;;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+carousel-item active
+{
+	height: 50%;
+	width: 50%;
+}
+#slider-animation{max-height:550px;}
+.heading-box h2{ width:100%; color: red; }
+h2, p{color:#fff;}
+.carousel-item img{width:100%;}
+.text-box {
+	position: absolute;
+	top: 50%;
+	left: 15%;
+	right: 15%;
+	color: #000;
+	transform: translateY(-50%);
+}

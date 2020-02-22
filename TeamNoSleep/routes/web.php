@@ -12,9 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/museum', function () {
-    return view('museum/shop');
-});
-Route:
+    return view('layouts.home');
+})->name ('home');
+
+Route::get('/contact', function () {
+    return view('layouts.contact');
+})->name ('contact');
+
