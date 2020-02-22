@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark special-color-dark">
+<nav class="navbar navbar-expand-lg navbar-dark pink darken-4">
 
     <!-- Navbar brand -->
     <a class="navbar-brand text-uppercase" href="#">Navbar</a>
@@ -25,11 +25,11 @@
             aria-haspopup="true" aria-expanded="false">Features
             <span class="sr-only">(current)</span>
           </a>
-          <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
+          <div class="dropdown-menu mega-menu v-2 z-depth-1 pink darken-4 py-5 px-3"
             aria-labelledby="navbarDropdownMenuLink2">
             <div class="row">
-              {{-- <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Test</h6>
+              <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
+                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
                 <ul class="list-unstyled">
                   <li>
                     <a class="menu-item pl-0" href="#!">
@@ -148,8 +148,7 @@
                     </a>
                   </li>
                 </ul>
-              </div> --}}
-              test
+              </div>
             </div>
           </div>
         </li>
@@ -157,7 +156,7 @@
         <li class="nav-item dropdown mega-dropdown">
           <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink3" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Technology</a>
-          <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
+          <div class="dropdown-menu mega-menu v-2 z-depth-1 pink darken-4 py-5 px-3"
             aria-labelledby="navbarDropdownMenuLink3">
             <div class="row">
               <div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
@@ -241,7 +240,7 @@
         <li class="nav-item dropdown mega-dropdown">
           <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink4" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Lifestyle</a>
-          <div class="dropdown-menu mega-menu v-2 z-depth-1 special-color py-5 px-3"
+          <div class="dropdown-menu mega-menu v-2 z-depth-1 pink darken-4 py-5 px-3"
             aria-labelledby="navbarDropdownMenuLink4">
             <div class="row">
               <div class="col-md-6 col-xl-3 sub-menu mb-4">
@@ -335,6 +334,41 @@
               </div>
             </div>
           </div>
+        </li>
+        <!-- Multi-level dropdown -->
+        <li class="nav-item dropdown multi-level-dropdown">
+          <a href="#" id="menu" data-toggle="dropdown"
+            class="nav-link dropdown-toggle text-uppercase">Multi-level</a>
+          <ul class="dropdown-menu mt-2 rounded-0 pink darken-4 border-0 z-depth-1">
+            <li class="dropdown-item dropdown-submenu p-0">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Click Me! </a>
+              <ul class="dropdown-menu ml-2 rounded-0 pink darken-4 border-0 z-depth-1">
+                <li class="dropdown-item p-0">
+                  <a href="#" class="text-white w-100">Hey</a>
+                </li>
+                <li class="dropdown-item p-0">
+                  <a href="#" class="text-white w-100">Hi</a>
+                </li>
+                <li class="dropdown-item p-0">
+                  <a href="#" class="text-white w-100">Hello</a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown-item dropdown-submenu p-0">
+              <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Click Me Too! </a>
+              <ul class="dropdown-menu mr-2 rounded-0 pink darken-4 border-0 z-depth-1 r-100 l-auto">
+                <li class="dropdown-item p-0">
+                  <a href="#" class="text-white w-100">How</a>
+                </li>
+                <li class="dropdown-item p-0">
+                  <a href="#" class="text-white w-100">are</a>
+                </li>
+                <li class="dropdown-item p-0">
+                  <a href="#" class="text-white w-100">you?</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </li>
   
       </ul>
