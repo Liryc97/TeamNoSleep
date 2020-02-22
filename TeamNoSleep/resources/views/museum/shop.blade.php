@@ -1,391 +1,192 @@
 @extends('layouts.main')
 
 @section('content')
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark pink darken-4">
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
 
     <!-- Navbar brand -->
-    <a class="navbar-brand text-uppercase" href="#">Navbar</a>
+    <a class="navbar-brand" href="#" ><img src="http://via.placeholder.com/50x50" style="width 30%"></a>
   
     <!-- Collapse button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2"
-      aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
   
     <!-- Collapsible content -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+    <div class="collapse navbar-collapse" id="basicExampleNav">
   
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
-  
-        <!-- Features -->
-        <li class="nav-item dropdown mega-dropdown active">
-          <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink2" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Features
-            <span class="sr-only">(current)</span>
-          </a>
-          <div class="dropdown-menu mega-menu v-2 z-depth-1 pink darken-4 py-5 px-3"
-            aria-labelledby="navbarDropdownMenuLink2">
-            <div class="row">
-              <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Lorem ipsum dolor sit amet
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Consectetur adipiscing elit
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Sed do eiusmod tempor incididunt
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Ut labore et dolore magna
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Ut enim ad minim veniam
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xl-3 sub-menu mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Quis nostrud exercitation
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Duis aute irure dolor in
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Reprehenderit in voluptate
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xl-3 sub-menu mb-md-0 mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Excepteur sint occaecat
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Sunt in culpa qui officia
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Mollit anim id est laborum
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Accusantium doloremque laudantium
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xl-3 sub-menu mb-0">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Programming</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Totam rem aperiam eaque
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Beatae vitae dicta sun
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi
-                      architecto
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Nemo enim ipsam voluptatem
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Neque porro quisquam est
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <!-- Technology -->
-        <li class="nav-item dropdown mega-dropdown">
-          <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink3" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Technology</a>
-          <div class="dropdown-menu mega-menu v-2 z-depth-1 pink darken-4 py-5 px-3"
-            aria-labelledby="navbarDropdownMenuLink3">
-            <div class="row">
-              <div class="col-md-12 col-xl-4 sub-menu mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
-                <!--Featured image-->
-                <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/8-col/img%20(37).jpg"
-                    class="img-fluid" alt="First sample image">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-                <a class="news-title font-weight-bold pl-0" href="#!">Lorem ipsum dolor sit</a>
-                <p class="font-small text-uppercase white-text">
-                  <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 17, 2017 / <i
-                    class="far fa-comments px-1" aria-hidden="true"></i> 20
-                </p>
-              </div>
-              <div class="col-md-6 col-xl-4 sub-menu mb-md-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Quis nostrud exercitation
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Duis aute irure dolor in
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Laboris nisi ut aliquip ex ea commodo consequat
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Reprehenderit in voluptate
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Esse cillum dolore eu fugiat nulla pariatur
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xl-4 sub-menu mb-0">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Excepteur sint occaecat
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Sunt in culpa qui officia
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Sed ut perspiciatis unde omnis iste natus error
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Mollit anim id est laborum
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Accusantium doloremque laudantium
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <!-- Lifestyle -->
-        <li class="nav-item dropdown mega-dropdown">
-          <a class="nav-link dropdown-toggle text-uppercase" id="navbarDropdownMenuLink4" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Lifestyle</a>
-          <div class="dropdown-menu mega-menu v-2 z-depth-1 pink darken-4 py-5 px-3"
-            aria-labelledby="navbarDropdownMenuLink4">
-            <div class="row">
-              <div class="col-md-6 col-xl-3 sub-menu mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Featured</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Lorem ipsum dolor sit amet
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Consectetur adipiscing elit
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Sed do eiusmod tempor incididunt
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Ut labore et dolore magna
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Ut enim ad minim veniam
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-6 col-xl-3 sub-menu mb-4 mb-xl-0">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Related</h6>
-                <!--Featured image-->
-                <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(43).jpg"
-                    class="img-fluid" alt="First sample image">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-                <a class="news-title font-weight-bold pl-0" href="#!">Lorem ipsum dolor sit</a>
-                <p class="font-small text-uppercase white-text">
-                  <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 17, 2017 / <i
-                    class="far fa-comments px-1" aria-hidden="true"></i> 20
-                </p>
-              </div>
-              <div class="col-md-6 col-xl-3 sub-menu mb-md-0 mb-xl-0 mb-4">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Design</h6>
-                <!--Featured image-->
-                <a href="#!" class="view overlay z-depth-1 p-0 mb-2">
-                  <img src="https://mdbootstrap.com/img/Photos/Horizontal/Work/6-col/img%20(44).jpg"
-                    class="img-fluid" alt="First sample image">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-                <a class="news-title font-weight-bold pl-0" href="#!">Ut labore et dolore magna</a>
-                <p class="font-small text-uppercase white-text">
-                  <i class="fas fa-clock-o pr-2" aria-hidden="true"></i>July 16, 2017 / <i
-                    class="far fa-comments px-1" aria-hidden="true"></i> 25
-                </p>
-              </div>
-              <div class="col-md-6 col-xl-3 sub-menu mb-0">
-                <h6 class="sub-title text-uppercase font-weight-bold white-text">Programming</h6>
-                <ul class="list-unstyled">
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Totam rem aperiam eaque
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Beatae vitae dicta sun
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Quae ab illo inventore veritatis et quasi
-                      architecto
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Nemo enim ipsam voluptatem
-                    </a>
-                  </li>
-                  <li>
-                    <a class="menu-item pl-0" href="#!">
-                      <i class="fas fa-caret-right pl-1 pr-3"></i>Neque porro quisquam est
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </li>
-        <!-- Multi-level dropdown -->
-        <li class="nav-item dropdown multi-level-dropdown">
-          <a href="#" id="menu" data-toggle="dropdown"
-            class="nav-link dropdown-toggle text-uppercase">Multi-level</a>
-          <ul class="dropdown-menu mt-2 rounded-0 pink darken-4 border-0 z-depth-1">
-            <li class="dropdown-item dropdown-submenu p-0">
-              <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Click Me! </a>
-              <ul class="dropdown-menu ml-2 rounded-0 pink darken-4 border-0 z-depth-1">
-                <li class="dropdown-item p-0">
-                  <a href="#" class="text-white w-100">Hey</a>
-                </li>
-                <li class="dropdown-item p-0">
-                  <a href="#" class="text-white w-100">Hi</a>
-                </li>
-                <li class="dropdown-item p-0">
-                  <a href="#" class="text-white w-100">Hello</a>
-                </li>
-              </ul>
-            </li>
-            <li class="dropdown-item dropdown-submenu p-0">
-              <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Click Me Too! </a>
-              <ul class="dropdown-menu mr-2 rounded-0 pink darken-4 border-0 z-depth-1 r-100 l-auto">
-                <li class="dropdown-item p-0">
-                  <a href="#" class="text-white w-100">How</a>
-                </li>
-                <li class="dropdown-item p-0">
-                  <a href="#" class="text-white w-100">are</a>
-                </li>
-                <li class="dropdown-item p-0">
-                  <a href="#" class="text-white w-100">you?</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <li class="nav-item">
+            <form class="form-inline">
+                <div class="md-form my-0">
+                  <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                </div>
+              </form>
         </li>
   
+        <!-- Dropdown -->
+        {{-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Account</a>
+          <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Settings</a>
+            <a class="dropdown-item" href="#">Log out</a>
+            <a class="dropdown-item" href="#">Test</a>
+          </div> --}}
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Artist</a>
+            <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Types of Arts</a>
+              <a class="dropdown-item" href="#">Top Artist</a>
+              <a class="dropdown-item" href="#">Sale</a>
+            </div>
+          </li>
       </ul>
-      <!-- Links -->
-  
-      <!-- Search form -->
-      <form class="form-inline">
-        <div class="md-form my-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+
+      <ul class="navbar-nav">
+       <!-- Dropdown -->
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Account</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Settings</a>
+          <a class="dropdown-item" href="#">Log out</a>
+          <a class="dropdown-item" href="#">Test</a>
         </div>
-      </form>
-  
+      </li>
+      </ul>
+
+     
+      
     </div>
     <!-- Collapsible content -->
   
   </nav>
-  <!-- Navbar -->
+  <!--/.Navbar-->
+ 
+
+
+<div class="container-fluid bg-white" style="margin-top: 50px">
+    
+        <div class="row">
+            <div class="col-md-2">
+                <span class="anchor" id="formUserEdit"></span>
+                    
+                <div class="">
+                    <div>
+                    <img src="http://via.placeholder.com/50x50" style="width:30%"alt="">
+                    </div>
+                    <h3>Id no: 1</h3>
+                    <h3>Name:</h3>
+                    <h3>City:</h3>
+                    <h3>Rigeion:</h3>
+                    <h3>Contact:</h3>
+                    <h3>Email:</h3>
+                </div>
+                            
+            </div>
+            <div class="col-md-10">
+                <div>
+                <img src="http://via.placeholder.com/350x50" style="width:100%" alt="">
+                </div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                        aria-selected="true">Ditails</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                        aria-selected="false">Work</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                        aria-selected="false">Contact</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Raw denim you
+                      probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master
+                      cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro
+                      keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip
+                      placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi
+                      qui.</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Food truck fixie
+                      locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit,
+                      blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee.
+                      Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum
+                      PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS
+                      salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit,
+                      sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester
+                      stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape
+                      wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack
+                      lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard
+                      locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify
+                      squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie
+                      etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog
+                      stumptown. Pitchfork sustainable tofu synth chambray yr.</div>
+                  </div>
+            </div>
+            
+        </div>
+
+</div>
+{{-- <div class="cta-sektion  border py-3">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-3 col-sm-3 col-xs-12 ">
+                <button type="button" class="btn bg-danger twhite" style="">Start Right Now</button>
+            </div>
+        </div>
+    </div>
+</div> --}}
+{{-- <div class="footer  py-5  ">
+	<div class="container">
+	  <div class="row">
+		
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-two">
+		    <h5>Information </h5>
+		    <ul class="list-unstyled">
+									<li><a href="maintenance.html">item</a></li>
+									<li><a href="contact.html">item</a></li>
+									<li><a href="about.html">item</a></li>
+									<li><a href="about.html">item</a></li>
+									<li><a href="about.html">item</a></li>
+								</ul>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-three">
+		    <h5>Helpful Links </h5>
+		    <ul class="list-unstyled">
+									<li><a href="maintenance.html">test</a></li>
+									<li><a href="contact.html">test</a></li>
+									<li><a href="about.html">test</a></li>
+									<li><a href="about.html">test</a></li>
+									<li><a href="about.html">test</a></li>
+								</ul>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-four">
+		    <h5>Helpful Links </h5>
+		    <ul class="list-unstyled">
+									<li><a href="maintenance.html">test</a></li>
+									<li><a href="contact.html">test</a></li>
+									<li><a href="about.html">test</a></li>
+									<li><a href="about.html">test</a></li>
+									<li><a href="about.html">test</a></li>
+								</ul>
+		</div>
+	  </div>
+	</div>
+</div>
+<div class="copyright bglight1 border pt-2">
+    <div class="container">
+        
+    </div> --}}
+</div>
 
   
 @endsection

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('/assets/plugin/mdb/css/mdb.css')}}">
 </head>
 <body>
-<header>
+{{-- <header>
     <div class="header">
         <div class="nav-bar">
             <table>
@@ -18,7 +18,7 @@
         </div>
         
     </div>
-</header>
+</header> --}}
 
 @yield('content')
 
